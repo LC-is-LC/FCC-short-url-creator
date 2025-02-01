@@ -34,7 +34,7 @@ app.use(urlencoded({extended: true}))
 
 
 app.get('/', function(req, res) {
-  res.sendFile(process.cwd() + '/index.html');
+  res.sendFile(process.cwd() + '/views/index.html');
 });
 
 
